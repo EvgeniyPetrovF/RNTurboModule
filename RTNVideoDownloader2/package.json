@@ -1,0 +1,39 @@
+{
+  "name": "rtn-video-downloader",
+  "version": "0.0.1",
+  "description": "Add numbers with Turbo Native Modules",
+  "react-native": "js/index",
+  "source": "js/index",
+  "files": [
+    "js",
+    "android",
+    "ios",
+    "rtn-video-downloader.podspec",
+    "!android/build",
+    "!ios/build",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "keywords": ["react-native", "ios", "android"],
+  "repository": "https://github.com/EvgeniyPetrovF/rtn-video-downloader",
+  "author": "EvgeniyPetrovF (https://github.com/EvgeniyPetrovF)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EvgeniyPetrovF/rtn-video-downloader/issues"
+  },
+  "homepage": "https://github.com/EvgeniyPetrovF/rtn-video-downloader#readme",
+  "devDependencies": {},
+  "peerDependencies": {
+    "react": "*",
+    "react-native": "*"
+  },
+  "codegenConfig": {
+    "name": "RTNVideoDownloaderSpec",
+    "type": "modules",
+    "jsSrcsDir": "js",
+    "android": {
+      "javaPackageName": "com.rtnvideodownloader"
+    }
+  }
+}
